@@ -16,7 +16,7 @@ public class CameraController : NetworkBehaviour {
 	void Update () {
 		if(!isLocalPlayer) {
 			cam.enabled = false;
-			gameObject.SetActive(false);
+			//gameObject.SetActive(false);
 			return;
 		}
 		
