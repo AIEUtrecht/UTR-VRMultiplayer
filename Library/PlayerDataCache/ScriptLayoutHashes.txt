@@ -7,7 +7,7 @@ a2153c82eea336a0ca350707f8b0a652 Assembly-CSharp.dll:Valve.VR.InteractionSystem.
 806424971d7d36abdcdab1b8e79b27b5 Assembly-CSharp.dll:Valve.VR.InteractionSystem.SeeThru
 3a014a9240130a62597226daae3ac932 Assembly-CSharp.dll:Valve.VR.InteractionSystem.Throwable
 d4b89701147abb8c88f1fe5f34200c32 Assembly-CSharp.dll:Valve.VR.InteractionSystem.LinearAudioPitch
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CameraController
+2124af75d6b3afb90d3c8471b98e9f78 Assembly-CSharp.dll:.CameraController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SteamVR_CameraFlip
 8c61d79ddb4f14cf3827a19ea5adbb59 Assembly-CSharp.dll:Valve.VR.InteractionSystem.TeleportArc
 9ac27b224a1cda2db6751ae68274f19e Assembly-CSharp.dll:Valve.VR.InteractionSystem.Hand
