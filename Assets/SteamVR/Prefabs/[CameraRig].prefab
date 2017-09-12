@@ -29,6 +29,7 @@ GameObject:
   - component: {fileID: 54675770434437934}
   - component: {fileID: 65137403139685508}
   - component: {fileID: 114996724223893466}
+  - component: {fileID: 114658466312495704}
   m_Layer: 0
   m_Name: Controller (left)
   m_TagString: Untagged
@@ -88,6 +89,7 @@ GameObject:
   - component: {fileID: 65754842745928220}
   - component: {fileID: 114064059402856780}
   - component: {fileID: 114473388478596926}
+  - component: {fileID: 114280886561196874}
   m_Layer: 0
   m_Name: Controller (right)
   m_TagString: Untagged
@@ -179,7 +181,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 146900}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0.58028126, y: -0.01000002, z: 2.0363657}
+  m_LocalPosition: {x: -1.8775041, y: -0.01000002, z: -2.514405}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 458974}
@@ -738,7 +740,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 159396}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 879cff0fab78e444686e43d0fd6e34fa, type: 3}
   m_Name: 
@@ -786,6 +788,24 @@ MonoBehaviour:
     i15: 210
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 1
+--- !u!114 &114280886561196874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7346a42905a29b347b1f492e8ad7b49f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllerIndex: 0
+  triggerPressed: 0
+  steamPressed: 0
+  menuPressed: 0
+  padPressed: 0
+  padTouched: 0
+  gripped: 0
 --- !u!114 &114333995661324456
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -816,6 +836,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teleportOnClick: 0
   teleportType: 2
+--- !u!114 &114658466312495704
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7346a42905a29b347b1f492e8ad7b49f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllerIndex: 0
+  triggerPressed: 0
+  steamPressed: 0
+  menuPressed: 0
+  padPressed: 0
+  padTouched: 0
+  gripped: 0
 --- !u!114 &114996724223893466
 MonoBehaviour:
   m_ObjectHideFlags: 1
