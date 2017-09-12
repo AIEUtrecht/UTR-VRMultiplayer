@@ -6,6 +6,7 @@
 
 using UnityEngine;
 using Valve.VR;
+using UnityEngine.Networking;
 
 public class SteamVR_ControllerManager : MonoBehaviour
 {
